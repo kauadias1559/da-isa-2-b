@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+      padding: 0;
+   
+   } 
+    .cabecario{background-color: #a6a6a6;
+       align-items: center;
+       display:flex;
+       justify-content: space-around;
+   } 
+   .botao{
+       padding: 1em;
+       background-color: #566559;
+       width: 120px;
+       border-radius: 40px  40px 40px 40px;
+       color: white;
+   }
+   .botao:hover{
+       background-color: white;
+       color: black;
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: repeat(8,lfr);
+    grid-template-rows: repeat(8,lfr) ;
+    max-height: 99vh;
+    }
+    .texto-conheca-nossa-turma{
+    grid-row: 1 ;
+    grid-column: 1/9;
+     text-align: center;
+     font-size: 38px
+
+     
+    }
